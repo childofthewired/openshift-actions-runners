@@ -1,4 +1,4 @@
-FROM UBI8
+FROM ubi8
 
 # Adapted from https://github.com/bbrowning/github-runner/blob/master/Dockerfile
 RUN dnf -y upgrade --security && \
